@@ -1,0 +1,36 @@
+{
+  "name": "cte.pvp",
+  "version": "0.0.0",
+  "description": "webRTC PvP connection on Datachannel with losand",
+  "main": "pvp.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http": "^0.0.0",
+    "cte": "^1.1.0",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny-shaman/losand.pvp.git"
+  },
+  "keywords": [
+    "webRTC",
+    "cte",
+    "dsand",
+    "functional",
+    "algebra",
+    "algebraic"
+  ],
+  "author": "Noboru Okazaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnny-shaman/losand.pvp/issues"
+  },
+  "homepage": "https://github.com/johnny-shaman/losand.pvp#readme"
+}
