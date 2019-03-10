@@ -29,7 +29,9 @@
         _(ws).been
         .send(offing._[0].sdp)
         .on('message', m => ansing.use(a => (
-          a.splice(a.findIndex(v => v === ws), 1).pop().close(),
+          _(a.findIndex(v => v === ws)).endo(
+            i => a.splice(i, 1).pop().close()
+          ),
           offing.popL.been.send(m).close()
         )))
         ._
