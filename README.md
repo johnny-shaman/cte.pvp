@@ -43,24 +43,21 @@ and access the two clients;
 
 ## Usage on BrowserSide PvP function
 ```javascript
-PvP(
+PvP({
   // 1st Negotiation info
-  {
   blockedUserList: [],
   gameRating: 1000,
   friendOnry: true
 })(
   // 2nd Custom Origin
   "https://test.io/"
-)(
+)({
   // 3rd STUN Address or TURNServer Authentication info Object
   "stun:l.google...",
-  {
     url: "turn:...",
     credential: "...",
     username: ""
-  }
-)
+})
 
 // $.pvp get's WebRTC DataChannel Object
 $.pvp.send("hello");
