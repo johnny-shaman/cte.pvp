@@ -21,17 +21,15 @@
       offing._.length <= 0
       ? offing.pushR(
         _(ws).been
-        .send(_(false).json)
+        .send(_(false).json._)
         .on('message', sdp => _(ws).put({sdp}))
         ._
       )
       : ansing.pushR(
         _(ws).been
-        .send(offing._[0].sdp)
+        .send(_(offing._[0].sdp).json._)
         .on('message', m => ansing.use(a => (
-          _(a.findIndex(v => v === ws)).endo(
-            i => a.splice(i, 1).pop().close()
-          ),
+          a.splice(a.findIndex(v => v === ws), 1).pop().close(),
           offing.popL.been.send(m).close()
         )))
         ._
