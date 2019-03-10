@@ -1,10 +1,10 @@
-# losand.pvp
+# cte.pvp
 ## It's a usecase about ...
-- [\_(losand).\_](https://www.npmjs.com/package/losand) 
+- [Category Theory Environment](https://www.npmjs.com/package/cte)
 - [$(dsand).$()](https://www.npmjs.com/package/dsand)
 
 ~~~bash
-npm i losand.pvp
+npm i cte.pvp
 ~~~
 
 ### import server.js file
