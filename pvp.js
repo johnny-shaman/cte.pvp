@@ -29,9 +29,10 @@
         _(ws).been
         .send(offing._[0].sdp)
         .on('message', m => ansing.use(a => (
-          _(i => a.splice(a.findIndex(v => v === ws), 1)[0].close()),
+          a.splice(a.findIndex(v => v === ws), 1).pop().close(),
           offing.popL.been.send(m).close()
-        )))._
+        )))
+        ._
       )).use(a => ws.on('close', m => a.map($ => $.filter(v => v !== ws))))
     )
   )
