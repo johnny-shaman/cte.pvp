@@ -34,7 +34,7 @@
         .send(_(offing._[0].sdp).json._)
         ._
       )).use(a => ws.on('close', m => a.map($ => $.filter(v => v !== ws))))
-    )
+    )._
   )
   ._
   .listen(port || process.env.PORT, ip || process.env.IP);
