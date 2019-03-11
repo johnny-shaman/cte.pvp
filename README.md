@@ -16,9 +16,9 @@ require("cte.pvp")(__dirname + '/public', 'index.html', port, ip);
 ### Creat a public folder and make in a index.html
 You use it tags
 ~~~html
-  <script src="https://cdn.jsdelivr.net/npm/cte@1.1.0/cte.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.0/dsand.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.0/pvp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cte@1.1.12/cte.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.4/dsand.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.4/pvp.js"></script>
   <script>
     _($.role).put({
       pvpCE (channel) {
