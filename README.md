@@ -17,8 +17,8 @@ require("cte.pvp")(__dirname + '/public', 'index.html', port, ip);
 You use it tags
 ~~~html
   <script src="https://cdn.jsdelivr.net/npm/cte@1.1.12/cte.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.4/dsand.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.4/pvp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.6/dsand.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.6/pvp.js"></script>
   <script>
     _($.role).put({
       pvpCE (channel) {
@@ -30,7 +30,7 @@ You use it tags
       hear (e) {
         alert(e.data);
       }
-    })
+    });
     PvP()()();
   </script>
 ~~~
@@ -51,13 +51,17 @@ PvP({
 })(
   // 2nd Custom Origin
   "https://test.io/"
-)({
+)(
   // 3rd STUN Address or TURNServer Authentication info Object
-  "stun:l.google...",
+  {
+    url: "stun:l.google..."
+  },
+  {
     url: "turn:...",
     credential: "...",
     username: ""
-})
+  }
+)
 
 // $.pvp get's WebRTC DataChannel Object
 $.pvp.send("hello");
