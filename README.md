@@ -17,8 +17,8 @@ require("cte.pvp")(__dirname + '/public', 'index.html', port, ip);
 You use it tags
 ~~~html
   <script src="https://cdn.jsdelivr.net/npm/cte@1.1.12/cte.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.6/dsand.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.6/pvp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.7/dsand.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.7/pvp.js"></script>
   <script>
     _($.role).put({
       pvpCE (channel) {
