@@ -9,8 +9,8 @@ npm i cte.pvp
 
 ### import server.js file
 ~~~javascript
-require("cte.pvp")(__dirname + '/public', 'index.html', port, ip);
-//port and ip is opthional
+//arguments is optional...
+require("cte.pvp")(server, port, ip);
 ~~~
 
 ### Creat a public folder and make in a index.html
