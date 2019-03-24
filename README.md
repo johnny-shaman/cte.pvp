@@ -31,7 +31,7 @@ You use it tags
         alert(e.data);
       }
     });
-    PvP()()();
+    PvP()('https://cte-pvp-debug-johnny-shaman1.c9users.io/')();
   </script>
 ~~~
 

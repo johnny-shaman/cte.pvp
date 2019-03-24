@@ -24,9 +24,9 @@
           u.filter(
             w => w !== u.filter(v => v === ws).popR.use(x => x.close())._
           ),
-          offing.popL.been.sendUTF(m).close()
+          offing.popL.been.sendUTF(m.utf8Data).close()
         )))
-        .sendUTF(offing._[0].sdp)
+        .sendUTF(offing._[0].sdp.utf8Data)
         ._
       )).use(a => ws.on('close', m => a.endo($ => $.filter(v => v !== ws))))
     )._
