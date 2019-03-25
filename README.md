@@ -17,8 +17,8 @@ require("cte.pvp")(server, port, ip);
 You use it tags
 ~~~html
   <script src="https://cdn.jsdelivr.net/npm/cte@1.1.12/cte.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.7/dsand.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.7/pvp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.8/dsand.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dsand@0.7.8/pvp.js"></script>
   <script>
     _($.role).put({
       pvpCE (channel) {
@@ -31,7 +31,7 @@ You use it tags
         alert(e.data);
       }
     });
-    PvP()('https://cte-pvp-debug-johnny-shaman1.c9users.io/')();
+    PvP()()();
   </script>
 ~~~
 
