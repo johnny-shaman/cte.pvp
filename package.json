@@ -1,6 +1,6 @@
 {
   "name": "cte.pvp",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "webRTC PvP connection on Datachannel with losand",
   "main": "pvp.js",
   "dependencies": {
